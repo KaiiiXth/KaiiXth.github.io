@@ -1,0 +1,257 @@
+body {
+    background-image: url(sl_0210121_40570_31.jpg);
+    background-size: cover;
+}
+
+nav {
+    background-color: #3C3D37;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center; 
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #111; 
+    border-radius: 10px;
+  }
+
+  .logo {
+    width: 60px;
+    margin: 20px;
+  }
+
+  .Judul h2{
+    margin-left: 20px;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .image-container {
+    flex: 1;
+    justify-content: space-between;
+  }
+  
+  .image-container img {
+    width: 63%;
+    height: 80%;
+    margin-left: 100px;
+    border-radius: 30%;
+  }
+
+  .text-container {
+    flex: 2;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+  }
+
+  .text-container p {
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  .text-container h1{
+    font-size: 3rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    margin-bottom: 20px;
+    animation: fadeIn 2s ease-in-out;
+  }
+
+  .tombol {
+    background-color: #363f37; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+  }
+  
+  .tombol:hover {
+    background-color: #212b64;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .lanjut {
+    text-decoration: none;
+    color: #ffff;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2px;
+    margin-top: 3%;
+    border-radius: 5px;
+  }
+  
+  footer ul {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .social-media {
+    margin-top: 20px;
+  }
+  
+  .social-media a {
+    margin: 0 5px;
+    font-size: 20px;
+    color: #333;
+  }
+  .profile-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .profile-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .profile-image img {
+    width: 250px;
+    border-radius: 30%;
+    margin-left: 450px;
+  }
+  
+  .profile-info p {
+    flex: 2;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    font-size: 20px;
+    margin-right: 450px;
+  }
+  
+  .profile-info h1{
+    flex: 2;
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    color: white;
+    font-size: 30px;
+    
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery img {
+    width: 300px;
+    height: 200px;
+    margin: 50px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .gallery img:hover {
+    transform: scale(1.1);
+}
+
+  .contact-section label {
+    text-align: left;
+  }
+
+  .contact-section {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 550px;
+    text-align: center;
+    padding: 25px;
+    margin-left: 31%;
+    margin-top: 50px;
+    border-radius: 30px;
+    border: 3px solid;
+    border-color: #fff;
+}
+
+form {
+    width: 40%;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.tombol2 {
+    background-color:#303a30;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.hub {
+    color: white;
+}
