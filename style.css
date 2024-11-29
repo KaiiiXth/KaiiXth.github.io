@@ -165,7 +165,7 @@ nav {
   .profile-image img {
     width: 250px;
     border-radius: 30%;
-    margin-left: 450px;
+    margin-left: 50px;
   }
   
   .profile-info p {
@@ -175,7 +175,7 @@ nav {
     font-style: normal;
     color: white;
     font-size: 20px;
-    margin-right: 450px;
+    margin-right: 350px;
   }
   
   .profile-info h1{
